@@ -1,0 +1,89 @@
+
+
+#startButton{
+    -fx-background-color: #dddcdc;
+    -fx-background-radius: 0;
+    -fx-font-size: 20pt;
+    -fx-font-color: #000000;
+    -fx-font-family: "Bauhaus 93";
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+}
+#startButton:pressed{
+    -fx-background-color: #cccccc;
+}
+
+#exitButton{
+    -fx-background-color: #dddcdc;
+    -fx-background-radius: 0;
+    -fx-font-size: 20pt;
+    -fx-font-color: #000000;
+    -fx-font-family: "Bauhaus 93";
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+}
+#exitButton:pressed{
+    -fx-background-color: #cccccc;
+}
+
+#replayButton{
+    -fx-background-color: #dddcdc;
+    -fx-background-radius: 0;
+    -fx-font-size: 20pt;
+    -fx-font-color: #000000;
+    -fx-font-family: "Bauhaus 93";
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+}
+#replayButton:pressed{
+    -fx-background-color: #cccccc;
+}
+
+#okButton{
+    -fx-background-color: #dddcdc;
+    -fx-background-radius: 0;
+    -fx-font-size: 20pt;
+    -fx-font-color: #000000;
+    -fx-font-family: "Bauhaus 93";
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+}
+#okButton:pressed{
+    -fx-background-color: #cccccc;
+}
+
+#ruleButton{
+    -fx-background-color: #dddcdc;
+    -fx-background-radius: 0;
+    -fx-font-size: 20pt;
+    -fx-font-color: #000000;
+    -fx-font-family: "Bauhaus 93";
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-color: #cccccc;
+    -fx-font-stroke-color: #000000;
+    -fx-border-width: 2;
+}
+#ruleButton:pressed{
+    -fx-background-color: #cccccc;
+}
+
+#checkRed{
+     -fx-background-color: linear-gradient(to right,#00fffc,#fff600);
+}
+
+#fancyText {
+    -fx-font-size: 28pt;
+    -fx-font-family: "Britannic Bold";
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+

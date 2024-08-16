@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bubblebobble.Controllers.GameController">
+   <children>
+      <Pane fx:id="gamePane" prefHeight="680.0" prefWidth="1000.0">
+         <children>
+            <Canvas fx:id="canvas" height="680.0" onKeyPressed="#keyPress" onKeyReleased="#keyRelease" onMouseClicked="#clickGame" width="800.0" />
+            <Pane fx:id="infoPane" layoutX="800.0" prefHeight="680.0" prefWidth="200.0">
+               <children>
+                  <Text fx:id="infoText" layoutX="35.0" layoutY="320.0" lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <Label fx:id="chargeLabel" layoutX="18.0" layoutY="187.0" text="Label">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <MenuBar layoutX="80.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Control">
+                        <items>
+                          <MenuItem fx:id="restart" mnemonicParsing="false" onAction="#chooseRestart" text="Restart" />
+                              <MenuItem fx:id="goStartPage" mnemonicParsing="false" onAction="#chooseStartPage" text="Go to start page" />
+                              <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#chooseExit" text="Exit" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                          <items>
+                              <MenuItem fx:id="readRules" mnemonicParsing="false" onAction="#chooseReadRules" text="Read rules..." />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+               </children></Pane>
+         </children></Pane>
+   </children>
+</AnchorPane>
